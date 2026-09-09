@@ -8,7 +8,7 @@ package ejercicio.java.canelo;
  *
  * @author andresgonzalezgarcia
  */
-public class Ejercicio_01 {
+public class Ejercicio_01_Mostrar_Informacion {
      
     public static void main(String[] args) {
         Presentacion();
