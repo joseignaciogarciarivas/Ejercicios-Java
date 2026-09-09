@@ -8,7 +8,7 @@ package ejercicios.java.nacho;
  *
  * @author andresgonzalezgarcia
  */
-public class Ejercicios_01_Mostrar_Informacion {
+public class Ejercicio_01_Mostrar_Informacion {
 
     /**
      * @param args the command line arguments

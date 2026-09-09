@@ -1,4 +1,4 @@
-package ejercicios.java;
+package ejercicios.java.nacho;
 
 public class Ejercicio_02_Calculadora {
 
