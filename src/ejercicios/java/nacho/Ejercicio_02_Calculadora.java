@@ -5,7 +5,7 @@ public class Ejercicio_02_Calculadora {
     public static void main(String[] args) {
 
         // Inicializacion de variables
-        int numero1 = 20;
+        int numero1 = 21;
         int numero2 = 5;
 
         System.out.println("==========================");
@@ -38,7 +38,7 @@ public class Ejercicio_02_Calculadora {
         return pNumero1 * pNumero2;
     }
 
-    public static int Division(int pNumero1, int pNumero2) {
+    public static double Division(int pNumero1, int pNumero2) {
         return pNumero1 / pNumero2;
     }
 }

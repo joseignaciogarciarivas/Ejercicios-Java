@@ -3,7 +3,7 @@ package ejercicio.java.canelo;
 public class Ejercicio_02_Calculadora {
 
     public static void main(String[] args) {
-        int vNumero1 = 20;
+        int vNumero1 = 21;
         int vNumero2 = 5;
 
         System.out.println("==============================");
@@ -19,6 +19,7 @@ public class Ejercicio_02_Calculadora {
         System.out.println("==============================");
     }
 
+    // <editor-fold defaultstate="collapsed" desc="MÉTODOS Y FUNSIONES">    
     public static int Suma(int pVal1, int pVal2) {
         return pVal1 + pVal2;
     }
@@ -32,6 +33,7 @@ public class Ejercicio_02_Calculadora {
     }
 
     public static double Division(int pVal1, int pVal2) {
-        return pVal1 / pVal2;
+        return (double) pVal1 / pVal2;
     }
+    // </editor-fold>
 }
