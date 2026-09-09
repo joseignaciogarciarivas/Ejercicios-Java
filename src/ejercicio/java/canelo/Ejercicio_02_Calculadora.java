@@ -7,7 +7,7 @@ public class Ejercicio_02_Calculadora {
         int vNumero2 = 5;
 
         System.out.println("==============================");
-        System.out.println("CALCULADORA");
+        System.out.println("CALCULADORA - Canelo88");
         System.out.println("==============================");
         System.out.println("Número 1: " + vNumero1);
         System.out.println("Número 2: " + vNumero2);
