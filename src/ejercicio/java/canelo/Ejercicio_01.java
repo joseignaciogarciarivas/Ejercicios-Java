@@ -25,7 +25,7 @@ public class Ejercicio_01 {
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad);
         System.out.println("Ciudad: " + ciudad);
-        System.out.println("Estoy aprendiendo Java");
+        System.out.println("Estoy aprendiendo Java MOD");
         
     }
 }
