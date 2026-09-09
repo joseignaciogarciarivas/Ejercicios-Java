@@ -19,7 +19,7 @@ public class Ejercicio_02_Calculadora {
         System.out.println("==============================");
     }
 
-    // <editor-fold defaultstate="collapsed" desc="MÉTODOS Y FUNSIONES">    
+    // <editor-fold defaultstate="collapsed" desc="MÉTODOS Y FUNCIONES">    
     public static int Suma(int pVal1, int pVal2) {
         return pVal1 + pVal2;
     }
