@@ -16,7 +16,7 @@ public class Ejercicio_02_Calculadora {
         
 
     }
-    public static void MenudeResultados(int numero1, int numero2){
+    public static void MenudeResultados(int numero1, int numero2) {
         
 
         System.out.println("==========================");
