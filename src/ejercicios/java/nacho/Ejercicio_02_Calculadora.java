@@ -12,15 +12,12 @@ public class Ejercicio_02_Calculadora {
         System.out.println("Ingrese el valor del segundo numero");
         int numero2 = scanner.nextInt();
         
-
+        MenudeResultados(numero1, numero2);
         
 
     }
-    public static void MenuPrincipal(){
-
-        // Inicializacion de variables
-        int numero1 = 0;
-        int numero2 = 0;
+    public static void MenudeResultados(int numero1, int numero2){
+        
 
         System.out.println("==========================");
         System.out.println("     CALCULADORA NACHO    ");
@@ -51,6 +48,6 @@ public class Ejercicio_02_Calculadora {
     }
 
     public static double Division(int pNumero1, int pNumero2) {
-        return pNumero1 / pNumero2;
+        return (double) pNumero1 / pNumero2;
     }
 }
