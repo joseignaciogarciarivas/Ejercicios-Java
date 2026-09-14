@@ -1,6 +1,6 @@
-package ejercicio.java.canelo;
+package ejercicio.java.canelo.ejercicio_2;
 
-public class Ejercicio_02_Calculadora {
+public class Calculadora {
 
     public static void main(String[] args) {
         int vNumero1 = 21;

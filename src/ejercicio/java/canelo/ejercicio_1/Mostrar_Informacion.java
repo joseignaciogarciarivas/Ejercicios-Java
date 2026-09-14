@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ejercicio.java.canelo;
+package ejercicio.java.canelo.ejercicio_1;
 
 /**
  *
  * @author andresgonzalezgarcia
  */
-public class Ejercicio_01_Mostrar_Informacion {
+public class Mostrar_Informacion {
      
     public static void main(String[] args) {
         Presentacion();
