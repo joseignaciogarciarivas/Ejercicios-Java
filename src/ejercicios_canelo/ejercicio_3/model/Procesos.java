@@ -1,4 +1,4 @@
-package model;
+package ejercicios_canelo.ejercicio_3.model;
 
 public class Procesos {
 
