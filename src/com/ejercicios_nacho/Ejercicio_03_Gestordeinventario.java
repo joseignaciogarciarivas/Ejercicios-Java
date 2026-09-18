@@ -1,4 +1,4 @@
-package ejercicios.java.nacho;
+package com.ejercicios_nacho;
 
 import java.util.Scanner;
 
@@ -46,6 +46,8 @@ public class Ejercicio_03_Gestordeinventario {
             }
 
         } while (!opcion.equals("4"));
+
+        scanner.close();
     }
 
     public static void verInvetario(String[] nombre, double[] precios, int[] stock, int tamano) {
@@ -66,6 +68,8 @@ public class Ejercicio_03_Gestordeinventario {
         }
         System.out.println("Productos guardados con exito!!");
         System.out.println("Volviendo al menu principal...");
+
+        scanner.close();
     }
 
 }

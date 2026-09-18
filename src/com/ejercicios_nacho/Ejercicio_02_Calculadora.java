@@ -1,4 +1,4 @@
-package ejercicios.java.nacho;
+package com.ejercicios_nacho;
 import java.util.Scanner;
 
 public class Ejercicio_02_Calculadora {
@@ -14,7 +14,7 @@ public class Ejercicio_02_Calculadora {
         
         MenudeResultados(numero1, numero2);
         
-
+        scanner.close();
     }
     public static void MenudeResultados(int numero1, int numero2) {
         

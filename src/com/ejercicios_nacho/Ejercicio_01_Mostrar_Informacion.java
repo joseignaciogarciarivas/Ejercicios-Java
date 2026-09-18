@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package ejercicios.java.nacho;
+package com.ejercicios_nacho; 
 
-/**
- *
- * @author andresgonzalezgarcia
- */
 public class Ejercicio_01_Mostrar_Informacion {
 
     /**
