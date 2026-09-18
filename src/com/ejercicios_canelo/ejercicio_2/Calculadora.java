@@ -1,4 +1,4 @@
-package ejercicios_canelo.ejercicio_2;
+package com.ejercicios_canelo.ejercicio_2;
 
 public class Calculadora {
 
