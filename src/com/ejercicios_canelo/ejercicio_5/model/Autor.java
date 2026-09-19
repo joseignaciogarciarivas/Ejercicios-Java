@@ -18,7 +18,7 @@ public class Autor {
         this.genLit = pGenLit;
     }
 
-    
+
     public enum GeneroLiterario {
         NOVELA,
         POESIA,
@@ -32,6 +32,7 @@ public class Autor {
         sb.append("Autor = " + Autor);
         sb.append("Nacionalidad = " + nacionalidad);
         sb.append("Genero literario = " + genLit);
+        return sb.toString();
     }
 
 }
