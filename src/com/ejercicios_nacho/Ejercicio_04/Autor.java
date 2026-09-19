@@ -3,6 +3,15 @@ public class Autor {
     private String nacionalidad;
     private GeneroLiterario Genlit;
 
+
+        public enum GeneroLiterario{
+    NOVELA,
+    CIENCIA_FICCION,
+    HISTORIA,
+    POESIA;
+
+}
+
     // Constructor Vacio
     public Autor() {
 
