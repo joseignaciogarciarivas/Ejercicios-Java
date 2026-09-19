@@ -3,21 +3,21 @@ public class Autor {
     private String nacionalidad;
     private GeneroLiterario Genlit;
 
+    // Enum
+    public enum GeneroLiterario {
+        NOVELA,
+        CIENCIA_FICCION,
+        HISTORIA,
+        POESIA;
 
-        public enum GeneroLiterario{
-    NOVELA,
-    CIENCIA_FICCION,
-    HISTORIA,
-    POESIA;
-
-}
+    }
 
     // Constructor Vacio
     public Autor() {
 
     }
 
-    // Construcor con todos los atributos
+    // Constructor con todos los atributos
     public Autor(String pNombre, String pNacionalidad, GeneroLiterario pGenlit) {
         this.nombre = pNombre;
         this.nacionalidad = pNacionalidad;
@@ -25,7 +25,7 @@ public class Autor {
     }
 
     @Override
-    public String StringBuiler() {
+    public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Autor: " + Autor);
         sb.append("Nacionalidad: " + nacionalidad);
