@@ -10,7 +10,7 @@ public class Libro{
         this.cantidadLibros = pCantidadLibros;
         this.autor = pAutor;
         
-        getCantidadLibros++;
+        cantidadLibros++;
 
     }
 
