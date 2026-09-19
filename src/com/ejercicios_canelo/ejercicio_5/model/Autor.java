@@ -1,29 +1,31 @@
 package com.ejercicios_canelo.ejercicio_5.model;
 
 public class Autor {
+    
     private String nombre;
     private String nacionalidad;
-    private generoLiterario genero;
+    private generoLiterario genLit;
 
-    public Autor(String nombre, String nacionalidad, generoLiterario genero) {
-        this.nombre = nombre;
-        this.nacionalidad = nacionalidad;
-        this.genero = genero;
+    public void Autor(String pNombre, String pNacionalidad, generoLiterario pGenLit){
+        this.nombre = pNombre;
+        this.nacionalidad = pNacionalidad;
+        this.genLit = pGenLit;
     }
 
     public enum generoLiterario{
         NOVELA,
         POESIA,
         CIENCIA_FICCION,
-        HISTORIA;
+        HISTORI;
     }
 
     @Override
     public String toString() {
-        return "Autor{" +
-                "nombre='" + nombre + '\'' +
-                ", nacionalidad='" + nacionalidad + '\'' +
-                ", genero=" + genero +
-                '}';
+        StringBuilder sb = new StringBuilder();        
+        sb.append("\n\t\tNombre = ").append(nombre);
+        sb.append("\n\t\tNacionalidad = ").append(nacionalidad);
+        sb.append("\n\t\tGenero Literario = ").append(genLit);                        
+        return sb.toString();
     }
+    
 }
